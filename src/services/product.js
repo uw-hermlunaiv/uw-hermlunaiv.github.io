@@ -1,7 +1,11 @@
-import axios from "axios";
+import { $dummyHttp } from ".";
 
-const URL = "https://dummyjson.com/products/";
+const resource = "/products";
 
-export const getProducts = () => {
-  return axios.get(URL);
+export const getProducts = async () => {
+  return $dummyHttp.get(resource);
+};
+
+export const findProduct = async (id) => {
+  return $dummyHttp.get(`${resource}/${id}`);
 };
