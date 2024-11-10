@@ -1,0 +1,4 @@
+<svg class="shape triangle">
+    <polygon points="85 10, 160 140, 10 140" class="shape-inner">
+    </polygon>
+  </svg>

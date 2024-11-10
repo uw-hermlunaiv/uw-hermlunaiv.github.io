@@ -1,0 +1,5 @@
+<svg class="shape square">
+    <rect x="35" y="35" width="120" height="120"
+          class="shape-inner">
+    </rect>
+  </svg>
